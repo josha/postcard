@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="gF2-bU-WiY">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="gF2-bU-WiY">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -61,6 +61,15 @@
                                     <rect key="frame" x="244" y="148" width="123" height="93"/>
                                 </variation>
                             </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e35-sd-wwu">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="28" y="219" width="193" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -70,6 +79,7 @@
                                 <exclude reference="auL-jE-IGW"/>
                                 <exclude reference="Bbw-gm-NcF"/>
                                 <exclude reference="VEX-jJ-DqT"/>
+                                <exclude reference="e35-sd-wwu"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -79,6 +89,7 @@
                                 <include reference="auL-jE-IGW"/>
                                 <include reference="Bbw-gm-NcF"/>
                                 <include reference="VEX-jJ-DqT"/>
+                                <include reference="e35-sd-wwu"/>
                             </mask>
                         </variation>
                     </view>
@@ -87,6 +98,7 @@
                         <outlet property="enterNameTextField" destination="LA3-kx-rg5" id="aAD-sQ-FNQ"/>
                         <outlet property="mailButton" destination="auL-jE-IGW" id="9oI-qb-A96"/>
                         <outlet property="messageLabel" destination="Bbw-gm-NcF" id="b99-8j-HVC"/>
+                        <outlet property="nameLabel" destination="e35-sd-wwu" id="T4K-cB-x6M"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -102,6 +114,7 @@
                         <viewControllerLayoutGuide type="bottom" id="JrW-Py-SP5"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="C0H-Po-a71">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SagradaFamilia.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="UTN-Bw-G9r">
